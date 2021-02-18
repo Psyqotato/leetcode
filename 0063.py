@@ -9,7 +9,6 @@ class Solution:
         for i in range(1,m):
             if obstacleGrid[i][0] != 1:
                 if obstacleGrid[i-1][0] == -1:obstacleGrid[i][0] = -1
-        print(obstacleGrid)
         for i in range(1,m):
             for j in range(1,n):
                 if obstacleGrid[i][j] != 1:
